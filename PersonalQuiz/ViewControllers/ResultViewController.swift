@@ -18,7 +18,7 @@ final class ResultViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.setHidesBackButton(true, animated: true)
         calcResultAnswers()
-    }
+    } 
     
     @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
         dismiss(animated: true)
